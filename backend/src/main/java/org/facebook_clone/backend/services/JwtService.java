@@ -1,4 +1,4 @@
-package org.personal.facebook_clone_backend.services;
+package org.facebook_clone.backend.services;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;

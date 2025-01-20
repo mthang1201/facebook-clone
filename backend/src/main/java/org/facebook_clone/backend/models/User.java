@@ -1,4 +1,4 @@
-package org.personal.facebook_clone_backend.models;
+package org.facebook_clone.backend.models;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

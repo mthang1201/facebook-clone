@@ -1,4 +1,4 @@
-package org.personal.facebook_clone_backend;
+package org.facebook_clone.backend;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

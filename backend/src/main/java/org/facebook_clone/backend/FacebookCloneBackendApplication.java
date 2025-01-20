@@ -1,4 +1,4 @@
-package org.personal.facebook_clone_backend;
+package org.facebook_clone.backend;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

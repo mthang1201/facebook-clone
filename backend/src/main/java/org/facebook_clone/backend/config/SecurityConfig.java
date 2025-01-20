@@ -1,4 +1,4 @@
-package org.personal.facebook_clone_backend.config;
+package org.facebook_clone.backend.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;

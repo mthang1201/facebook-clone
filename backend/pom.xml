@@ -8,10 +8,10 @@
 		<version>3.3.7</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>org.personal</groupId>
-	<artifactId>facebook-clone-backend</artifactId>
+	<groupId>org.facebook_clone</groupId>
+	<artifactId>backend</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>facebook-clone-backend</name>
+	<name>backend</name>
 	<description>Backend for Facebook clone</description>
 	<url/>
 	<licenses>
@@ -57,7 +57,6 @@
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
-<!--			<version>1.18.28</version>-->
 			<optional>true</optional>
 		</dependency>
 		<dependency>
@@ -94,15 +93,6 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
-<!--				<configuration>-->
-<!--					<annotationProcessorPaths>-->
-<!--						<path>-->
-<!--							<groupId>org.projectlombok</groupId>-->
-<!--							<artifactId>lombok</artifactId>-->
-<!--							<version>1.18.28</version>-->
-<!--						</path>-->
-<!--					</annotationProcessorPaths>-->
-<!--				</configuration>-->
 			</plugin>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>

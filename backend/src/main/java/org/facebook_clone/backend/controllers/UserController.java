@@ -1,7 +1,7 @@
-package org.personal.facebook_clone_backend.controllers;
+package org.facebook_clone.backend.controllers;
 
-import org.personal.facebook_clone_backend.models.User;
-import org.personal.facebook_clone_backend.services.UserService;
+import org.facebook_clone.backend.models.User;
+import org.facebook_clone.backend.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;

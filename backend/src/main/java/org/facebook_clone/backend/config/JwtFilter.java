@@ -1,11 +1,11 @@
-package org.personal.facebook_clone_backend.config;
+package org.facebook_clone.backend.config;
 
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
-import org.personal.facebook_clone_backend.services.JwtService;
-import org.personal.facebook_clone_backend.services.MyUserDetailsService;
+import org.facebook_clone.backend.services.JwtService;
+import org.facebook_clone.backend.services.MyUserDetailsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;

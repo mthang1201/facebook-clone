@@ -1,7 +1,7 @@
-package org.personal.facebook_clone_backend.services;
+package org.facebook_clone.backend.services;
 
-import org.personal.facebook_clone_backend.models.User;
-import org.personal.facebook_clone_backend.repos.UserRepo;
+import org.facebook_clone.backend.models.User;
+import org.facebook_clone.backend.repos.UserRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;

@@ -1,6 +1,6 @@
-package org.personal.facebook_clone_backend.repos;
+package org.facebook_clone.backend.repos;
 
-import org.personal.facebook_clone_backend.models.User;
+import org.facebook_clone.backend.models.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
