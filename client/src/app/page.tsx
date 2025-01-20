@@ -9,7 +9,7 @@ export default function Home() {
 
   useEffect(() => {
     axios
-        .get("http://facebook-backend:8080/")
+        .get("http://backend:8080/")
         .then((response) => setData(response.data))
         .catch((error) => console.error("Error fetching data", error));
   }, []);
