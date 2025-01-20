@@ -1,0 +1,42 @@
+services:
+  backend:
+    image: openjdk:23-jdk
+    container_name: backend
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./backend:/app
+    working_dir: /app
+    command: ["./mvnw", "spring-boot:run"]
+
+  client:
+    image: node:22
+    container_name: client
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./client:/app
+    working_dir: /app
+    command: ["npm", "run", "dev"]
+
+  db:
+    image: mysql:8.4
+    container_name: database
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: facebook_db
+    volumes:
+      - ./database/mysql_data:/var/lib/mysql
+
+  # jenkins:
+  #   image: jenkins/jenkins:lts
+  #   container_name: jenkins
+  #   ports:
+  #     - "8081:8080"  # Jenkins runs on port 8080 inside the container
+  #     - "50000:50000" # Used for connecting agents
+  #   volumes:
+  #     - ./jenkins_home:/var/jenkins_home  # Persistent data storage
+  #   environment:
+  #     JAVA_OPTS: "-Djenkins.install.runSetupWizard=false"  # Skip setup wizard
