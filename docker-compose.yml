@@ -1,6 +1,6 @@
 services:
   backend:
-    image: mthang1201/facebook-clone-backend
+    image: openjdk:23-jdk
     container_name: backend
     ports:
       - "8080:8080"
@@ -10,7 +10,7 @@ services:
     command: ["./mvnw", "spring-boot:run"]
 
   client:
-    image: mthang1201/facebook-clone-client
+    image: node:22
     container_name: client
     ports:
       - "3000:3000"
@@ -20,7 +20,7 @@ services:
     command: ["npm", "run", "dev"]
 
   db:
-    image: mthang1201/facebook-clone-database
+    image: mysql:8.4
     container_name: database
     ports:
       - "3306:3306"
