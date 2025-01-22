@@ -7,8 +7,8 @@ services:
     volumes:
       - ./backend:/app
     working_dir: /app
-    # command: ["./mvnw", "spring-boot:run"]
-    command: ["sh", "-c", "./mvnw install && ./mvnw spring-boot:run"]
+    command: ["./mvnw", "spring-boot:run"]
+    # command: ["sh", "-c", "./mvnw install && ./mvnw spring-boot:run"]
 
   client:
     image: node:22
@@ -18,8 +18,8 @@ services:
     volumes:
       - ./client:/app
     working_dir: /app
-    # command: ["npm", "run", "dev"]
-    command: ["sh", "-c", "npm install && npm run dev"]
+    command: ["npm", "run", "dev"]
+    # command: ["sh", "-c", "npm install && npm run dev"]
 
   db:
     image: mysql:8.4
