@@ -11,7 +11,7 @@ export default function MenuPane() {
       <div className="col-start-2 col-end-3 flex items-center justify-center">
         <MenuBar />
       </div>
-      <div className="bg-lime-500 col-start-3 col-end-4">
+      <div className="col-start-3 col-end-4">
         <Profile />
       </div>
     </div>
