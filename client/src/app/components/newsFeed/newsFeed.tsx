@@ -21,8 +21,8 @@ export default function NewsFeed(data: any) {
         <br></br>
         <button type="button" onClick={() => {setCounter(counter + 1)}}>Click me!</button>
         <p>You entered: {value}</p> */}
-        <div className="flex flex-col w-3/4 bg-black items-center gap-4 h-screen">
-          <div className="bg-yellow-600 rounded w-full mt-4">
+        <div className="flex flex-col w-3/4 bg-zinc-900 items-center gap-4 h-screen">
+          <div className="bg-zinc-800 rounded w-full mt-4">
             <PostNewThings />
           </div>
           <div className="bg-pink-400 w-full">

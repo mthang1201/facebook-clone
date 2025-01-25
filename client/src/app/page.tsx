@@ -18,8 +18,8 @@ export default function Home() {
   // }, []);
 
   return (
-    <div className="h-screen grid grid-rows-[auto_1fr] grid-cols-[1fr_2fr_1fr] bg-black text-white">
-      <div className="row-start-1 row-end-2 col-start-1 col-end-4 bg-red-500">
+    <div className="h-screen grid grid-rows-[auto_1fr] grid-cols-[1fr_2fr_1fr] bg-zinc-900 text-white">
+      <div className="row-start-1 row-end-2 col-start-1 col-end-4 bg-zinc-800">
         <MenuPane />
       </div>
       <div className="row-start-2 row-end-3 col-start-1 col-end-2 bg-blue-500">
@@ -27,7 +27,7 @@ export default function Home() {
       </div>
       <div className="row-start-2 row-end-3 col-start-2 col-end-3 bg-green-500">
         <NewsFeed data={data} />
-      </div>
+      </div>  
       <div className="row-start-2 row-end-3 col-start-3 col-end-4 bg-purple-500">
         <ContactsPane />
       </div>
