@@ -22,13 +22,13 @@ export default function NewsFeed(data: any) {
         <button type="button" onClick={() => {setCounter(counter + 1)}}>Click me!</button>
         <p>You entered: {value}</p> */}
         <div className="flex flex-col w-3/4 bg-zinc-900 items-center gap-4 h-screen">
-          <div className="bg-zinc-800 rounded w-full mt-4">
+          <div className="bg-zinc-800 rounded-lg w-full mt-4">
             <PostNewThings />
           </div>
-          <div className="bg-pink-400 w-full">
+          <div className="bg-pink-400 rounded-lg w-full">
             <Stories />
           </div>
-          <div className="bg-orange-400 w-full">
+          <div className="bg-orange-400 rounded-lg w-full">
             <Posts />
           </div>
         </div>
