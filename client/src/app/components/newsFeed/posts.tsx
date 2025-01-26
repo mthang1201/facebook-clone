@@ -1,7 +1,9 @@
+import Post from "@/app/components/newsFeed/post/post";
+
 export default function Posts() {
     return (
         <div className="posts">
-            <h1>Posts</h1>
+            <Post />
         </div>
     );
 }

@@ -25,10 +25,10 @@ export default function NewsFeed(data: any) {
           <div className="bg-zinc-800 rounded-lg w-full mt-4">
             <PostNewThings />
           </div>
-          <div className="bg-pink-400 rounded-lg w-full">
+          <div className="w-full">
             <Stories />
           </div>
-          <div className="bg-orange-400 rounded-lg w-full">
+          <div className="bg-orange-400 w-full">
             <Posts />
           </div>
         </div>
