@@ -28,7 +28,7 @@ export default function Home() {
       <div className="row-start-2 row-end-3 col-start-2 col-end-3 bg-green-500">
         <NewsFeed data={data} />
       </div>  
-      <div className="row-start-2 row-end-3 col-start-3 col-end-4 bg-purple-500">
+      <div className="row-start-2 row-end-3 col-start-3 col-end-4">
         <ContactsPane />
       </div>
     </div>

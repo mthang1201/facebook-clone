@@ -1,7 +1,11 @@
 export default function SidePane() {
     return (
-        <div className="flex flex-col ml-1">
+        <div className="flex flex-col ml-2 mt-4">
             <div className="flex flex-col items-start">
+                <button className="rounded-lg flex items-center h-14 w-full gap-4">
+                    <img className="bg-blue-300 rounded-full ml-2" src="https://api.dicebear.com/9.x/avataaars/svg" width="28" height="28" alt="profile" />
+                    Guest
+                </button>
                 {/* <button className="flex items-center h-14 w-full gap-4">
                     <img src="/friends.png" style={{fill:"#1d8ae5"}} className="w-7 h-7 ml-2" alt="friends"/>
                     Friends
