@@ -18,17 +18,17 @@ export default function Home() {
   // }, []);
 
   return (
-    <div className="h-full grid grid-rows-[auto_1fr] grid-cols-[1fr_2fr_1fr] bg-zinc-900 text-white">
+    <div className="h-screen grid grid-rows-[auto_1fr] grid-cols-[1fr_2fr_1fr] bg-zinc-900 text-white overflow-hidden">
       <div className="row-start-1 row-end-2 col-start-1 col-end-4 bg-zinc-800">
         <MenuPane />
       </div>
-      <div className="row-start-2 row-end-3 col-start-1 col-end-2">
+      <div className="row-start-2 row-end-3 col-start-1 col-end-2 overflow-y-auto">
         <SidePane />
       </div>
-      <div className="row-start-2 row-end-3 col-start-2 col-end-3">
+      <div className="row-start-2 row-end-3 col-start-2 col-end-3 overflow-y-auto">
         <NewsFeed data={data} />
       </div>  
-      <div className="row-start-2 row-end-3 col-start-3 col-end-4">
+      <div className="row-start-2 row-end-3 col-start-3 col-end-4 overflow-y-auto">
         <ContactsPane />
       </div>
     </div>

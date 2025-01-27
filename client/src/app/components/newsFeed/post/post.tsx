@@ -4,7 +4,7 @@ import Footer from "./footer";
 
 export default function Post() {
     return (
-        <div className="post">
+        <div className="bg-zinc-800 rounded-lg">
             <Header />
             <Content />
             <Footer />

@@ -28,7 +28,7 @@ export default function NewsFeed(data: any) {
           <div className="w-full">
             <Stories />
           </div>
-          <div className="bg-orange-400 w-full">
+          <div className="w-full mb-4">
             <Posts />
           </div>
         </div>
