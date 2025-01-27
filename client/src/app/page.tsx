@@ -25,7 +25,7 @@ export default function Home() {
       <div className="row-start-2 row-end-3 col-start-1 col-end-2">
         <SidePane />
       </div>
-      <div className="row-start-2 row-end-3 col-start-2 col-end-3 bg-green-500">
+      <div className="row-start-2 row-end-3 col-start-2 col-end-3">
         <NewsFeed data={data} />
       </div>  
       <div className="row-start-2 row-end-3 col-start-3 col-end-4">

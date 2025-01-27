@@ -1,7 +1,13 @@
+import Header from "./header";
+import Content from "./content";
+import Footer from "./footer";
+
 export default function Post() {
     return (
         <div className="post">
-            <h1>Post</h1>
+            <Header />
+            <Content />
+            <Footer />
         </div>
     );
 }
